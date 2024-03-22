@@ -18,9 +18,18 @@ h1 {
 }
 .prods {
   max-width: 100%;
-  height: 200px;
+  max-height: 100%;
 }
 .prod {
   margin-left: 20px;
   margin-top: 20px;
+}
+.Frm {
+  max-width: 500px;
+  margin-left: 500px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.btn {
+  margin-left: 10px;
 }

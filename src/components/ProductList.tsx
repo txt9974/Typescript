@@ -1,6 +1,6 @@
-import instance from '@/apis'
+// import instance from '@/apis'
 import { TProduct } from '@/interfaces/TProduct'
-import { table } from 'console'
+// import { table } from 'console'
 import { useEffect, useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
@@ -40,9 +40,12 @@ const ProductList = () => {
             <Card.Img className='prods' variant='top' src={product.thumbnail} />
             <Card.Body>
               <Card.Title>{product.title}</Card.Title>
-              {/* <Card.Text>{product.description}</Card.Text> */}
+              <Card.Text>Còn lại: {product?.stock}</Card.Text>
               <Link to={`/shop/${product.id}`}>
                 <Button variant='primary'>Product details</Button>
+                <Button className='btn' variant='primary'>
+                  Buy Now
+                </Button>
               </Link>
             </Card.Body>
           </Card>
