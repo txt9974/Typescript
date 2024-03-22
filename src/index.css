@@ -80,3 +80,11 @@ button:hover {
 a {
   text-decoration: none;
 }
+.fter {
+  color: black;
+}
+.foo {
+  background-color: gainsboro;
+  padding: 50px;
+  text-align: center;
+}

@@ -7,7 +7,7 @@ export type Product = {
   rating: number | undefined
   stock: number | undefined
   brand: string | undefined
-  category: string | undefined
+  category?: string | undefined
   thumbnail: string | undefined
   images: string[] | undefined
 }

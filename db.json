@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "title": "iPhone 9",
+      "title": "Ván trượt TechDeck",
       "description": "An apple mobile which is nothing like apple",
       "price": 549,
       "discountPercentage": 12.96,
@@ -10,7 +10,7 @@
       "stock": 94,
       "brand": "Apple",
       "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/6028846-8.jpg?v=1685122622&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/1/1.jpg",
         "https://cdn.dummyjson.com/product-images/1/2.jpg",
@@ -21,7 +21,7 @@
     },
     {
       "id": 2,
-      "title": "iPhone X",
+      "title": "Bàn chơi bi lắc",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       "price": 899,
       "discountPercentage": 17.94,
@@ -29,7 +29,7 @@
       "stock": 34,
       "brand": "Apple",
       "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/files/c43b8fb82b679457d5cdf4a1a09ce1f3.jpg?v=1706802111&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/2/1.jpg",
         "https://cdn.dummyjson.com/product-images/2/2.jpg",
@@ -39,7 +39,7 @@
     },
     {
       "id": 3,
-      "title": "Samsung Universe 9",
+      "title": "Thùng gạch Duplo sáng tạo",
       "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
       "price": 1249,
       "discountPercentage": 15.46,
@@ -47,12 +47,12 @@
       "stock": 36,
       "brand": "Samsung",
       "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/10913-_13_1.jpg?v=1684948062&width=400",
       "images": ["https://cdn.dummyjson.com/product-images/3/1.jpg"]
     },
     {
       "id": 4,
-      "title": "OPPOF19",
+      "title": "Máy Chụp Hình Thông Minh Hồng Dịu Dàng",
       "description": "OPPO F19 is officially announced on April 2021.",
       "price": 280,
       "discountPercentage": 17.91,
@@ -60,7 +60,7 @@
       "stock": 123,
       "brand": "OPPO",
       "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/yt011pk-tiki-bh.jpg?v=1684968505&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/4/1.jpg",
         "https://cdn.dummyjson.com/product-images/4/2.jpg",
@@ -71,7 +71,7 @@
     },
     {
       "id": 5,
-      "title": "Huawei P30",
+      "title": "Tàu Con Thoi Vũ Trụ",
       "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
       "price": 499,
       "discountPercentage": 10.58,
@@ -79,7 +79,7 @@
       "stock": 32,
       "brand": "Huawei",
       "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/31134_copy_2_868af0d5-38af-4c6d-b9cf-47acea3b12a9.jpg?v=1707008790&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/5/1.jpg",
         "https://cdn.dummyjson.com/product-images/5/2.jpg",
@@ -88,7 +88,7 @@
     },
     {
       "id": 6,
-      "title": "MacBook Pro",
+      "title": "Xe Tải Công Trình",
       "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
       "price": 1749,
       "discountPercentage": 11.02,
@@ -96,7 +96,7 @@
       "stock": 83,
       "brand": "Apple",
       "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/42147-6_cc90448e-6589-422e-be48-5feaf90b7afb.jpg?v=1707007671&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/6/1.png",
         "https://cdn.dummyjson.com/product-images/6/2.jpg",
@@ -106,7 +106,7 @@
     },
     {
       "id": 7,
-      "title": "Samsung Galaxy Book",
+      "title": "Đồ Chơi Máy Nuôi Thú Ảo Bitzee Bitzee 6067790",
       "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
       "price": 1499,
       "discountPercentage": 4.15,
@@ -114,7 +114,7 @@
       "stock": 50,
       "brand": "Samsung",
       "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/files/426787fcc3e66f5aa54ad5455174c041.jpg?v=1706785358&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/7/1.jpg",
         "https://cdn.dummyjson.com/product-images/7/2.jpg",
@@ -124,7 +124,7 @@
     },
     {
       "id": 8,
-      "title": "Microsoft Surface Laptop 4",
+      "title": "Đồ Chơi Pop It Smart Hình Quả Dứa Màu Vàng",
       "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
       "price": 1499,
       "discountPercentage": 10.23,
@@ -132,7 +132,7 @@
       "stock": 68,
       "brand": "Microsoft Surface",
       "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/pap.pop01.yel-tiki-at.jpg?v=1685036672&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/8/1.jpg",
         "https://cdn.dummyjson.com/product-images/8/2.jpg",
@@ -143,7 +143,7 @@
     },
     {
       "id": 9,
-      "title": "Infinix INBOOK",
+      "title": "Bệ Phóng B-137 Long Bey Launcher Clear Blue",
       "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
       "price": 1099,
       "discountPercentage": 11.83,
@@ -151,7 +151,7 @@
       "stock": 96,
       "brand": "Infinix",
       "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/123842_1_0794b749-a889-46bc-b087-7b0429751cad.jpg?v=1706986959&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/9/1.jpg",
         "https://cdn.dummyjson.com/product-images/9/2.png",
@@ -162,7 +162,7 @@
     },
     {
       "id": 10,
-      "title": "HP Pavilion 15-DK1056WM",
+      "title": "Đồ Chơi Pop It Smart Hình Trái Tim Xanh",
       "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
       "price": 1099,
       "discountPercentage": 6.18,
@@ -170,7 +170,7 @@
       "stock": 89,
       "brand": "HP Pavilion",
       "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/hrt.pop01.blu-tiki-at.jpg?v=1685036479&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/10/1.jpg",
         "https://cdn.dummyjson.com/product-images/10/2.jpg",
@@ -180,7 +180,7 @@
     },
     {
       "id": 11,
-      "title": "perfume Oil",
+      "title": "Chiến Xe Monster Jam™ Megalodon™",
       "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
       "price": 13,
       "discountPercentage": 8.4,
@@ -188,7 +188,7 @@
       "stock": 65,
       "brand": "Impression of Acqua Di Gio",
       "category": "fragrances",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/lego-42134_3.jpg?v=1706993506&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/11/1.jpg",
         "https://cdn.dummyjson.com/product-images/11/2.jpg",
@@ -198,7 +198,7 @@
     },
     {
       "id": 12,
-      "title": "Brown Perfume",
+      "title": "Cờ Tỷ Phú Ngân Hàng Điện Tử Cao Cấp",
       "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
       "price": 40,
       "discountPercentage": 15.66,
@@ -206,7 +206,7 @@
       "stock": 52,
       "brand": "Royal_Mirage",
       "category": "fragrances",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/files/665ce6efaa45f902b8aae8072d9b32a3.jpg?v=1706799422&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/12/1.jpg",
         "https://cdn.dummyjson.com/product-images/12/2.jpg",
@@ -217,7 +217,7 @@
     },
     {
       "id": 13,
-      "title": "Fog Scent Xpressio Perfume",
+      "title": "Bé Lily Tập Ăn Dặm",
       "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
       "price": 13,
       "discountPercentage": 8.14,
@@ -225,7 +225,7 @@
       "stock": 61,
       "brand": "Fog Scent Xpressio",
       "category": "fragrances",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/E5841_1.jpg?v=1706970033&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/13/1.jpg",
         "https://cdn.dummyjson.com/product-images/13/2.png",
@@ -236,7 +236,7 @@
     },
     {
       "id": 14,
-      "title": "Non-Alcoholic Concentrated Perfume Oil",
+      "title": "Combo Bột Nặn 4 Màu Và Bột Nặn 4 Màu Mini",
       "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
       "price": 120,
       "discountPercentage": 15.6,
@@ -244,7 +244,7 @@
       "stock": 114,
       "brand": "Al Munakh",
       "category": "fragrances",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/cbb5517-23241-33-11.07_9af9def4-9ac4-450f-8414-06ba931bb5e9.jpg?v=1707002056&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/14/1.jpg",
         "https://cdn.dummyjson.com/product-images/14/2.jpg",
@@ -254,7 +254,7 @@
     },
     {
       "id": 15,
-      "title": "Eau De Perfume Spray",
+      "title": "Xe Đua Điện Thể Thao",
       "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
       "price": 30,
       "discountPercentage": 10.99,
@@ -262,7 +262,7 @@
       "stock": 105,
       "brand": "Lord - Al-Rehab",
       "category": "fragrances",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/60383-6.jpg?v=1707007827&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/15/1.jpg",
         "https://cdn.dummyjson.com/product-images/15/2.jpg",
@@ -273,7 +273,7 @@
     },
     {
       "id": 16,
-      "title": "Hyaluronic Acid Serum",
+      "title": "Siêu Xe Hot Wheels Đổi Màu",
       "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
       "price": 19,
       "discountPercentage": 13.31,
@@ -281,7 +281,7 @@
       "stock": 110,
       "brand": "L'Oreal Paris",
       "category": "skincare",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/bhr15_2.jpg?v=1684906261&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/16/1.png",
         "https://cdn.dummyjson.com/product-images/16/2.webp",
@@ -292,7 +292,7 @@
     },
     {
       "id": 17,
-      "title": "Tree Oil 30ml",
+      "title": "Đồ Chơi Mô Hình Siku Sniper 0866 - Giao Hàng Ngẫu Nhiên",
       "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
       "price": 12,
       "discountPercentage": 4.09,
@@ -300,7 +300,7 @@
       "stock": 78,
       "brand": "Hemani Tea",
       "category": "skincare",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/files/6918f9eafd240d0106bb60f6f31d6fa0.jpg?v=1706759152&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/17/1.jpg",
         "https://cdn.dummyjson.com/product-images/17/2.jpg",
@@ -310,7 +310,7 @@
     },
     {
       "id": 18,
-      "title": "Oil Free Moisturizer 100ml",
+      "title": "Đồ Chơi Lắp Ráp Rồng Con Riyu Lego Ninjago 71810",
       "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
       "price": 40,
       "discountPercentage": 13.1,
@@ -318,7 +318,7 @@
       "stock": 88,
       "brand": "Dermive",
       "category": "skincare",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/files/71810_02.jpg?v=1709718177&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/18/1.jpg",
         "https://cdn.dummyjson.com/product-images/18/2.jpg",
@@ -329,7 +329,7 @@
     },
     {
       "id": 19,
-      "title": "Skin Beauty Serum.",
+      "title": "Xe Mô Tô Độ",
       "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
       "price": 46,
       "discountPercentage": 10.68,
@@ -337,7 +337,7 @@
       "stock": 54,
       "brand": "ROREC White Rice",
       "category": "skincare",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/42132_4_c79b1795-b54d-4cea-8f11-b4b3998abb44.jpg?v=1706994715&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/19/1.jpg",
         "https://cdn.dummyjson.com/product-images/19/2.jpg",
@@ -347,7 +347,7 @@
     },
     {
       "id": 20,
-      "title": "Freckle Treatment Cream- 15gm",
+      "title": "Xe Cảnh Sát",
       "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
       "price": 70,
       "discountPercentage": 16.99,
@@ -355,7 +355,7 @@
       "stock": 140,
       "brand": "Fair & Clear",
       "category": "skincare",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/60312-tiki-th.jpg?v=1685054349&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/20/1.jpg",
         "https://cdn.dummyjson.com/product-images/20/2.jpg",
@@ -366,7 +366,7 @@
     },
     {
       "id": 21,
-      "title": "- Daal Masoor 500 grams",
+      "title": "Bàn Chơi Khúc Côn Cầu",
       "description": "Fine quality Branded Product Keep in a cool and dry place",
       "price": 20,
       "discountPercentage": 4.81,
@@ -374,7 +374,7 @@
       "stock": 133,
       "brand": "Saaf & Khaas",
       "category": "groceries",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/21/thumbnail.png",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/files/3aefdcfcc96eeb8a6b1e621717fca8ba.jpg?v=1706802134&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/21/1.png",
         "https://cdn.dummyjson.com/product-images/21/2.jpg",
@@ -400,7 +400,7 @@
     },
     {
       "id": 23,
-      "title": "Orange Essence Food Flavou",
+      "title": "Đồ Chơi Cún Con Học Chữ Scout",
       "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
       "price": 14,
       "discountPercentage": 8.04,
@@ -408,7 +408,7 @@
       "stock": 26,
       "brand": "Baking Food Items",
       "category": "groceries",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/files/c0378903de9fb584a0d0a3c75d7e964d.jpg?v=1706799193&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/23/1.jpg",
         "https://cdn.dummyjson.com/product-images/23/2.jpg",
@@ -419,7 +419,7 @@
     },
     {
       "id": 24,
-      "title": "cereals muesli fruit nuts",
+      "title": "Đồ Chơi Lắp Ráp Chiến Giáp Của Cole Lego Ninjago 71806",
       "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
       "price": 46,
       "discountPercentage": 16.8,
@@ -427,7 +427,7 @@
       "stock": 113,
       "brand": "fauji",
       "category": "groceries",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/71806_1.jpg?v=1707217656&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/24/1.jpg",
         "https://cdn.dummyjson.com/product-images/24/2.jpg",
@@ -438,7 +438,7 @@
     },
     {
       "id": 25,
-      "title": "Gulab Powder 50 Gram",
+      "title": "Phi Cơ Sấm Sét Tiến Hóa Của Jay",
       "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
       "price": 70,
       "discountPercentage": 13.58,
@@ -446,7 +446,7 @@
       "stock": 47,
       "brand": "Dry Rose",
       "category": "groceries",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/71784-1.jpg?v=1685134360&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/25/1.png",
         "https://cdn.dummyjson.com/product-images/25/2.jpg",
@@ -457,7 +457,7 @@
     },
     {
       "id": 26,
-      "title": "Plant Hanger For Home",
+      "title": "Siêu Xe Mercedes-Amg F1 W12 E Performance & Mercedes-Amg Pro",
       "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
       "price": 41,
       "discountPercentage": 17.86,
@@ -465,7 +465,7 @@
       "stock": 131,
       "brand": "Boho Decor",
       "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/files/eb245a572ec8e8c4ff245bf2207e8223.jpg?v=1706783317&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/26/1.jpg",
         "https://cdn.dummyjson.com/product-images/26/2.jpg",
@@ -477,7 +477,7 @@
     },
     {
       "id": 27,
-      "title": "Flying Wooden Bird",
+      "title": "Chiến Giáp Tiến Hóa Của Lloyd",
       "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
       "price": 51,
       "discountPercentage": 15.58,
@@ -485,7 +485,7 @@
       "stock": 17,
       "brand": "Flying Wooden",
       "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/27/thumbnail.webp",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/71781-1.jpg?v=1707007934&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/27/1.jpg",
         "https://cdn.dummyjson.com/product-images/27/2.jpg",
@@ -496,7 +496,7 @@
     },
     {
       "id": 28,
-      "title": "3D Embellishment Art Lamp",
+      "title": "Nhân Vật Lego Số 23",
       "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
       "price": 20,
       "discountPercentage": 16.49,
@@ -504,7 +504,7 @@
       "stock": 54,
       "brand": "LED Lights",
       "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/71034_9_77d80c5a-da74-44ec-a4cd-dad377644b00.jpg?v=1707005983&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/28/1.jpg",
         "https://cdn.dummyjson.com/product-images/28/2.jpg",
@@ -515,7 +515,7 @@
     },
     {
       "id": 29,
-      "title": "Handcraft Chinese style",
+      "title": "Đồ Chơi Lắp Ráp Nhân Vật Lego Marvel Series 2 Lego Minifigures 71039",
       "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
       "price": 60,
       "discountPercentage": 15.34,
@@ -523,7 +523,7 @@
       "stock": 7,
       "brand": "luxury palace",
       "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/29/thumbnail.webp",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/71039_1.jpg?v=1707209641&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/29/1.jpg",
         "https://cdn.dummyjson.com/product-images/29/2.jpg",
@@ -534,7 +534,7 @@
     },
     {
       "id": 30,
-      "title": "Key Holder",
+      "title": "Đồ Chơi Lắp Ráp Chiến Xe Monster Xanh Dương Lego City 60402",
       "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
       "price": 30,
       "discountPercentage": 2.92,
@@ -542,7 +542,7 @@
       "stock": 54,
       "brand": "Golden",
       "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg",
+      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/60402_1.jpg?v=1707216390&width=400",
       "images": [
         "https://cdn.dummyjson.com/product-images/30/1.jpg",
         "https://cdn.dummyjson.com/product-images/30/2.jpg",
