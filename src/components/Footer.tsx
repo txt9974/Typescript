@@ -5,7 +5,7 @@ type Props = {}
 const Footer = (props: Props) => {
   return (
     <footer className='fter'>
-      <div className='foo'>Footer</div>
+      <div className='foo'>Trần Xuân Thắng</div>
     </footer>
   )
 }
