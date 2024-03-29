@@ -1,5 +1,5 @@
 import { TProduct } from '@/interfaces/TProduct'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import instance from '@/apis'
 
