@@ -2,7 +2,7 @@ import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header/Header'
 import Home from './pages/Home'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useNavigate } from 'react-router-dom'
 import ProductDetail from './pages/ProductDetail'
 import Login from './pages/Login'
 import Register from './pages/Register'
@@ -12,14 +12,17 @@ import { TProduct } from './interfaces/TProduct'
 import instance from './apis'
 import DashBoard from './pages/admin/Dashboard'
 import Add from './pages/admin/Add'
+import Edit from './pages/admin/Edit'
+import { createProducts, removeProduct, updateProducts } from './apis/product'
 // import { log } from 'console'
 function App() {
   const [products, setProducts] = useState<TProduct[]>([])
+  const navigate = useNavigate()
   useEffect(() => {
     const getProducts = async () => {
       try {
         const { data } = await instance.get('/products')
-        console.log(data)
+        // console.log(data)
         setProducts(data)
       } catch (error) {
         console.log(error)
@@ -28,7 +31,30 @@ function App() {
     getProducts()
   }, [])
   const handleAdd = (product: TProduct) => {
-    console.log(product)
+    ;(async () => {
+      const data = await createProducts(product)
+      // setProducts((prev) => [...prev, data])
+      setProducts([...products, data])
+      navigate('/admin')
+    })()
+  }
+  const handleEdit = (product: TProduct) => {
+    ;(async () => {
+      const p = await updateProducts(product)
+      // setProducts((prev) => [...prev, data])
+      setProducts(products.map((i) => (i.id === p.id ? p : i)))
+      navigate('/admin')
+    })()
+  }
+
+  const handleDeleteProduct = (id: number | undefined) => {
+    ;(async () => {
+      const isConfirm = window.confirm('Are you sure?')
+      if (isConfirm) {
+        await removeProduct(`${id}`)
+        setProducts(products.filter((i) => i.id !== id))
+      }
+    })()
   }
   return (
     <>
@@ -41,8 +67,9 @@ function App() {
           <Route path='/register' element={<Register />} />
         </Route>
         <Route path='/admin'>
-          <Route index element={<DashBoard products={products} />} />
+          <Route index element={<DashBoard products={products} onDel={handleDeleteProduct} />} />
           <Route path='/admin/add' element={<Add onAdd={handleAdd} />} />
+          <Route path='/admin/edit/:id' element={<Edit onEdit={handleEdit} />} />
         </Route>
         <Route path='*' element={<NotFound />} />
       </Routes>

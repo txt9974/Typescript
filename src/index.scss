@@ -80,14 +80,7 @@ button:hover {
 a {
   text-decoration: none;
 }
-.fter {
-  color: black;
-}
-.foo {
-  background-color: gainsboro;
-  padding: 50px;
-  text-align: center;
-}
+
 table {
   text-align: center;
 }
@@ -103,4 +96,15 @@ form {
 }
 .form-group {
   margin-bottom: 24px;
+}
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
 }

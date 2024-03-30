@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom'
 
 type Props = {
   products: TProduct[]
+  onDel: (id: number | undefined) => void
 }
-const DashBoard = ({ products }: Props) => {
+const DashBoard = ({ products, onDel }: Props) => {
+  const handleDelete = (id: number | undefined) => {
+    onDel(id)
+  }
   return (
     <div className='container'>
       <h1>Hello, Admin</h1>
@@ -33,8 +37,12 @@ const DashBoard = ({ products }: Props) => {
               </td>
               <td>{item.description}</td>
               <td>
-                <button className='btn btn-danger'>Update</button>
-                <button className='btn btn-warning'>Delete</button>
+                <Link to={`/admin/edit/${item.id}`}>
+                  <button className='btn btn-danger'>Update</button>
+                </Link>
+                <button className='btn btn-warning' onClick={() => handleDelete(Number(item.id))}>
+                  Delete
+                </button>
               </td>
             </tr>
           ))}
