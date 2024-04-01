@@ -1,3 +1,4 @@
+import { TUsers } from '@/interfaces/TUser'
 import instance from './index'
 import { TProduct } from '@/interfaces/TProduct'
 
@@ -48,3 +49,12 @@ export const removeProduct = async (id: string) => {
     console.log(error)
   }
 }
+// export const createUsers = async (users: TUsers) => {
+//   try {
+//     const { data } = await instance.post(`/users`, users)
+//     console.log(data)
+//     return data
+//   } catch (err) {
+//     console.log(err)
+//   }
+// }

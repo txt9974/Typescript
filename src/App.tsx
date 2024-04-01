@@ -14,6 +14,7 @@ import DashBoard from './pages/admin/Dashboard'
 import Add from './pages/admin/Add'
 import Edit from './pages/admin/Edit'
 import { createProducts, removeProduct, updateProducts } from './apis/product'
+// import { TUsers } from './interfaces/TUser'
 // import { log } from 'console'
 function App() {
   const [products, setProducts] = useState<TProduct[]>([])
@@ -40,9 +41,10 @@ function App() {
   }
   const handleEdit = (product: TProduct) => {
     ;(async () => {
-      const p = await updateProducts(product)
+      const { data } = await instance.put(`/product/${product.id}`, product)
+      // const data = await updateProducts(product)
       // setProducts((prev) => [...prev, data])
-      setProducts(products.map((i) => (i.id === p.id ? p : i)))
+      setProducts(products.map((i) => (i.id === data.id ? data : i)))
       navigate('/admin')
     })()
   }
@@ -56,6 +58,15 @@ function App() {
       }
     })()
   }
+  // const [users, setUsers] = useState<TUsers[]>([])
+  // const handleRegister = (users: TUsers) => {
+  //   ;(async () => {
+  //     const data = await createUsers(users)
+  // setProducts((prev) => [...prev, data])
+  //     setUsers([...users, data])
+  //     navigate('/login')
+  //   })()
+  // }
   return (
     <>
       <Header />
@@ -65,6 +76,7 @@ function App() {
           <Route path='/shop/:id' element={<ProductDetail />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
+          {/* onRegister={handleRegister} */}
         </Route>
         <Route path='/admin'>
           <Route index element={<DashBoard products={products} onDel={handleDeleteProduct} />} />

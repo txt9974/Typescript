@@ -1,22 +1,10 @@
 {
   "products": [
     {
-      "id": 2,
-      "title": "Bàn chơi bi lắc",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "discountPercentage": 17.94,
-      "rating": 4.44,
-      "stock": 34,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/files/c43b8fb82b679457d5cdf4a1a09ce1f3.jpg?v=1706802111&width=400",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/2/1.jpg",
-        "https://cdn.dummyjson.com/product-images/2/2.jpg",
-        "https://cdn.dummyjson.com/product-images/2/3.jpg",
-        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
-      ]
+      "title": "Bàn chơi bi lắcc",
+      "price": 8999,
+      "description": "",
+      "id": 2
     },
     {
       "id": 3,

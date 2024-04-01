@@ -1,3 +1,4 @@
+import instance from '@/apis'
 import { getProduct } from '@/apis/product'
 import { TProduct } from '@/interfaces/TProduct'
 import { joiResolver } from '@hookform/resolvers/joi/src/joi.js'
@@ -32,7 +33,8 @@ const ProductEdit = ({ onEdit }: Props) => {
   }
   useEffect(() => {
     ;(async () => {
-      const data = await getProduct(`/${id}`)
+      // const data = await getProduct(`/${id}`)
+      const { data } = await instance.get(`/products/${id}`)
       setProduct(data)
     })()
   }, [])
