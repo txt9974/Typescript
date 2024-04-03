@@ -41,8 +41,12 @@ function App() {
   }
   const handleEdit = (product: TProduct) => {
     ;(async () => {
-      const { data } = await instance.put(`/product/${product.id}`, product)
+      //Cach 1:
+      const { data } = await instance.put(`/products/${product.id}`, product)
+
+      //Cach 2:
       // const data = await updateProducts(product)
+
       // setProducts((prev) => [...prev, data])
       setProducts(products.map((i) => (i.id === data.id ? data : i)))
       navigate('/admin')
@@ -85,6 +89,7 @@ function App() {
         </Route>
         <Route path='*' element={<NotFound />} />
       </Routes>
+
       <Footer />
     </>
   )

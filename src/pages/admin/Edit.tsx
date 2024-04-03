@@ -15,7 +15,8 @@ type Props = {
 const schemaProduct = Joi.object({
   title: Joi.string().required().min(3).max(255),
   price: Joi.number().required().min(0),
-  description: Joi.string().allow(null, '')
+  description: Joi.string().allow(null, ''),
+  thumbnail: Joi.string().allow('')
 })
 const ProductEdit = ({ onEdit }: Props) => {
   const { id } = useParams()
@@ -75,6 +76,17 @@ const ProductEdit = ({ onEdit }: Props) => {
             placeholder='Description'
             {...register('description')}
             defaultValue={product?.description}
+          />
+        </div>
+        <div className='form-group'>
+          <label htmlFor='thumbnail'>Thumbnail</label>
+          <input
+            type='text'
+            className='form-control'
+            id='thumbnail'
+            placeholder='Thumbnail'
+            {...register('thumbnail')}
+            defaultValue={product?.thumbnail}
           />
         </div>
         <button type='submit' className='btn btn-primary w-100'>

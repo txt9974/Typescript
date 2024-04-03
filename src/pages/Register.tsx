@@ -1,29 +1,65 @@
-// import React from 'react'
-import Button from 'react-bootstrap/Button'
-import Form from 'react-bootstrap/Form'
+import instance from '@/apis'
+import { TUsers } from '@/interfaces/TUser'
+import { joiResolver } from '@hookform/resolvers/joi'
+import Joi from 'joi'
+import { useForm } from 'react-hook-form'
+import { useNavigate } from 'react-router-dom'
 
-type Props = {}
-
-const Register = (props: Props) => {
+const userSchema = Joi.object({
+  email: Joi.string().email({ tlds: false }).required(),
+  password: Joi.string().required().min(6)
+})
+const Register = () => {
+  const navigate = useNavigate()
+  const {
+    register,
+    handleSubmit,
+    formState: { errors }
+  } = useForm<TUsers>({
+    resolver: joiResolver(userSchema)
+  })
+  const onSubmit = (user: TUsers) => {
+    ;(async () => {
+      const { data } = await instance.post(`/register`, user)
+      console.log(data)
+      if (data.user) {
+        const isConfirm = confirm('Done')
+        if (isConfirm) {
+          navigate('/login')
+        }
+      }
+    })()
+  }
   return (
-    <Form className='Frm'>
-      <Form.Group className='mb-3' controlId='formBasicEmail'>
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type='email' placeholder='Enter email' />
-      </Form.Group>
-
-      <Form.Group className='mb-3' controlId='formBasicPassword'>
-        <Form.Label>Password</Form.Label>
-        <Form.Control type='password' placeholder='Password' />
-      </Form.Group>
-      <Form.Group className='mb-3' controlId='formBasicCheckbox'>
-        <Form.Check type='checkbox' label='Remember me' />
-      </Form.Group>
-      <Button variant='primary' type='submit'>
-        Submit
-      </Button>
-    </Form>
+    <div>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <div className='form-group'>
+          <label htmlFor='email'>Email</label>
+          <input
+            type='email'
+            className='form-control'
+            id='email'
+            placeholder='Email'
+            {...register('email', { required: true })}
+          />
+          {errors.email && <span className='text-danger'>{errors.email.message}</span>}
+        </div>
+        <div className='form-group'>
+          <label htmlFor='password'>Password</label>
+          <input
+            type='password'
+            className='form-control'
+            id='password'
+            placeholder='Password'
+            {...register('password', { required: true, minLength: 6 })}
+          />
+          {errors.password && <span className='text-danger'>{errors.password.message}</span>}
+        </div>
+        <button type='submit' className='btn btn-primary w-100'>
+          Submit
+        </button>
+      </form>
+    </div>
   )
 }
-
 export default Register

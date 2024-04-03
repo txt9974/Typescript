@@ -10,7 +10,8 @@ type Props = {
 const schemaProduct = Joi.object({
   title: Joi.string().required().min(3).max(255),
   price: Joi.number().required().min(0),
-  description: Joi.string().allow('')
+  description: Joi.string().allow(''),
+  thumbnail: Joi.string().allow('')
 })
 const ProductAdd = ({ onAdd }: Props) => {
   const {
@@ -57,6 +58,16 @@ const ProductAdd = ({ onAdd }: Props) => {
             id='description'
             placeholder='Description'
             {...register('description')}
+          />
+        </div>
+        <div className='form-group'>
+          <label htmlFor='thumbnail'>Thumbnail</label>
+          <input
+            type='text'
+            className='form-control'
+            id='thumbnail'
+            placeholder='Thumbnail'
+            {...register('thumbnail')}
           />
         </div>
         <button type='submit' className='btn btn-primary w-100'>

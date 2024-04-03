@@ -7,19 +7,10 @@
       "id": 2
     },
     {
-      "id": 3,
       "title": "Thùng gạch Duplo sáng tạo",
-      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
       "price": 1249,
-      "discountPercentage": 15.46,
-      "rating": 4.09,
-      "stock": 36,
-      "brand": "Samsung",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.shopify.com/s/files/1/0731/6514/4343/products/10913-_13_1.jpg?v=1684948062&width=400",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/3/1.jpg"
-      ]
+      "description": "An apple mobile which is nothing likee appleasdfasdf",
+      "id": 3
     },
     {
       "id": 4,
@@ -520,6 +511,13 @@
         "https://cdn.dummyjson.com/product-images/30/3.jpg",
         "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg"
       ]
+    },
+    {
+      "title": "adfasdf",
+      "price": 10000,
+      "description": "dsadasd",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/330px-Image_created_with_a_mobile_phone.png",
+      "id": 31
     }
   ],
   "carts": [
@@ -2863,6 +2861,16 @@
         "wallet": "0xb9fc1004bfe7702de522516cf34a5da41c4ef2b5",
         "network": "Ethereum (ERC20)"
       }
+    },
+    {
+      "email": "ugiufiuyfiuyg43563@gmail.com",
+      "password": "$2a$10$4lD3MQqQzpqnFSpPdVUQ.OKPOfi2uVUsivOn7Zf1rHtcaSKJP.3TS",
+      "id": 31
+    },
+    {
+      "email": "sucvat3344@gmail.com",
+      "password": "$2a$10$CUdjctHSADhLhekvkZL1.evW7bcWJibBFQcuxEWJ9iHzURhchlJpG",
+      "id": 32
     }
   ]
 }
